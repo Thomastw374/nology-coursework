@@ -1,11 +1,14 @@
 * {
-    margin: 0;
+    margin: 10px;
     padding: 0;
+    font-family: sans-serif;
 }
+
 
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .paragraph-picture {
@@ -17,7 +20,14 @@ nav {
 main {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+}
+
+#login {
+    border: 2px solid black;
+    padding: 15px 25px;
+    border-radius: 15%;
 }
 
 footer {
