@@ -24,7 +24,7 @@ nav {
     align-items: center;
 }
 
-main {
+#section-1 {
     font-size: 30px;
     color: $color-primary;
     display: flex;
@@ -32,6 +32,18 @@ main {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    margin: 100px;
+}
+
+#section-2 {
+    font-size: 30px;
+    color: $color-primary;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
 }
 
 .button {
@@ -44,10 +56,12 @@ main {
 }
 
 #login {
+    font-weight: bolder;
+    font-size: 28px;
     color: $color-primary;
-    border: 2px solid $color-primary;
-    padding: 15px 25px;
-    border-radius: 5%;
+    border: 3px solid $color-primary;
+    padding: 25px 50px;
+    border-radius: 7%;
 }
 
 footer {
