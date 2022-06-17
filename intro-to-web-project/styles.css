@@ -5,6 +5,7 @@
 
 nav {
   display: flex;
+  justify-content: space-between;
 }
 
 .paragraph-picture {
@@ -15,10 +16,13 @@ nav {
 
 main {
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
