@@ -61,6 +61,9 @@ nav {
 }
 
 footer {
+  color: midnightblue;
+  font-size: 35px;
+  font-weight: bold;
   background-color: blanchedalmond;
   display: flex;
   flex-direction: column;
